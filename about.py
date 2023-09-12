@@ -7,7 +7,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 
 def about_us(driver):
-    WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, 'menu-link'))).click()
+    WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, 'menu-link'))).click()
 
 
 if __name__ == '__main__':
