@@ -6,6 +6,10 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 url = 'https://thedemosite.co.uk/'
 
 
+<<<<<<< HEAD
+=======
+url = 'https://thedemosite.co.uk/contact/'
+>>>>>>> 4e13ada5436d841bc8acf779810c024b8879853c
 def driver_setup():
     options = ChromeOptions()
     options.add_experimental_option('detach', True)

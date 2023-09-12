@@ -5,8 +5,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from contact import contact_us_message_valid
+<<<<<<< HEAD
 from privacy_policy import privacy_policy
 
+=======
+from about import about_us
+>>>>>>> 4e13ada5436d841bc8acf779810c024b8879853c
 
 class Test(unittest.TestCase):
     def setUp(self) -> None:
@@ -19,8 +23,13 @@ class Test(unittest.TestCase):
         element = self.driver.find_element(By.CLASS_NAME, 'uagb-forms-success-message-173d6c98')
         assert not element.is_displayed()
 
+<<<<<<< HEAD
     def test3(self):
         privacy_policy(self.driver)
+=======
+    def test2(self):
+        about_us(self.my_driver)
+>>>>>>> 4e13ada5436d841bc8acf779810c024b8879853c
         time.sleep(0.5)
 
 
