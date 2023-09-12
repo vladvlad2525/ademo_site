@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 
 
-url = 'https://www.saucedemo.com/'
+url = 'https://thedemosite.co.uk/contact/'
 def driver_setup():
     options = ChromeOptions()
     options.add_experimental_option('detach', True)
