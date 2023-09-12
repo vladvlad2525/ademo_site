@@ -37,7 +37,9 @@ class Test(unittest.TestCase):
 
     def vlad(self):
         pass
-
+    
+    def itay(self):
+        pass
 
     def tearDown(self) -> None:
         self.driver.close()
