@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from contact import contact_us_message_valid
 from about import about_us
-
+from Logo_page import logo_page
 class Test(unittest.TestCase):
     def setUp(self) -> None:
         self.my_driver = driver_setup()
@@ -22,6 +22,9 @@ class Test(unittest.TestCase):
         about_us(self.my_driver)
         time.sleep(0.5)
 
+    def test4(self):
+        logo_page(self.my_driver)
+        time.sleep(0.5)
 
     def tearDown(self) -> None:
         self.my_driver.close()
