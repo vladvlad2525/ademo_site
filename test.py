@@ -35,6 +35,10 @@ class Test(unittest.TestCase):
         logo_page(self.driver)
         time.sleep(0.5)
 
+    def vlad(self):
+        pass
+
+
     def tearDown(self) -> None:
         self.driver.close()
 
