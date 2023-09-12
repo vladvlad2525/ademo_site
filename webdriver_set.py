@@ -13,7 +13,8 @@ def driver_setup():
     return driver
 
 
-driver = driver_setup()
+
 
 if __name__ == '__main__':
+    driver = driver_setup()
     driver.get(url)
