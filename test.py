@@ -19,7 +19,7 @@ class Test(unittest.TestCase):
         contact_us_message_valid(self.driver)
         time.sleep(0.5)
         element = self.driver.find_element(By.CLASS_NAME, 'uagb-forms-success-message-173d6c98')
-        assert not element.is_displayed()
+        assert  element.is_displayed()
 
     def test2(self):
         about_us(self.driver)
